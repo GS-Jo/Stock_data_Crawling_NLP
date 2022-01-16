@@ -26,5 +26,4 @@ for date in dates:
 
 result_df = pd.concat(dfs)
 result_df.reset_index(inplace=True)
-result_df.tail()
 
