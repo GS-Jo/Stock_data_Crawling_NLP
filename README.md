@@ -19,11 +19,26 @@
     - 1. 나이브베이즈를 활용한 주식뉴스 감성분석
     - 2. Word2vec을 활용한 주식 키워드 유사도분석
 
+## 파일설명
 
-## 1. 데이터 
+### 데이터수집 파일
+
+#### [주식뉴스 크롤링 및 자연어처리 프로젝트 주가데이터 크롤링](https://github.com/GS-Jo/Stock_data_Crawling_NLP/blob/main/%EC%A3%BC%EC%8B%9D%EB%8D%B0%EC%9D%B4%ED%84%B0_%ED%81%AC%EB%A1%A4%EB%A7%81.py)
+
+#### [주식뉴스 크롤링 및 자연어처리 프로젝트 뉴스 크롤링](https://github.com/GS-Jo/Stock_data_Crawling_NLP/blob/main/%EC%A3%BC%EC%8B%9D%EB%89%B4%EC%8A%A4%20%ED%81%AC%EB%A1%A4%EB%A7%81.ipynb)
+
+### 자연어처리 프로젝트 파일
+
+#### [뉴스데이터와 주가데이터를 활용한 감성분석](https://github.com/GS-Jo/Stock_data_Crawling_NLP/blob/main/NLP_project/Stocknews_Sentiment.ipynb)
+
+#### [뉴스데이터 Word2vec 유사도분석](https://github.com/GS-Jo/Stock_data_Crawling_NLP/blob/main/NLP_project/news_word2vec.ipynb)
+
+
+
+# 1. 데이터 수집
 
 데이터 수집방법: 크롤링
-활용툴: Sc
+활용툴: Scrapy
 
 #### 1-1. 주가 데이터 크롤링
 
@@ -34,12 +49,7 @@
 - 주요 컬럼 : 종목코드 / 종목이름 / 일자 / 종가 / 시장구분(코스닥 + 코스피)
 - 기간 : 현시점부터 1년
 
-### [주식뉴스 크롤링 및 자연어처리 프로젝트 주가데이터 크롤링](https://github.com/GS-Jo/Stock_data_Crawling_NLP/blob/main/%EC%A3%BC%EC%8B%9D%EB%8D%B0%EC%9D%B4%ED%84%B0_%ED%81%AC%EB%A1%A4%EB%A7%81.py)
-
 #### 1-2 네이버 증권탭의 종목관련 뉴스 크롤링
-
-### [주식뉴스 크롤링 및 자연어처리 프로젝트 뉴스 크롤링](https://github.com/GS-Jo/Stock_data_Crawling_NLP/blob/main/%EC%A3%BC%EC%8B%9D%EB%89%B4%EC%8A%A4%20%ED%81%AC%EB%A1%A4%EB%A7%81.ipynb)
-
 
 <img width="1002" alt="스크린샷 2022-01-18 오후 7 50 20" src="https://user-images.githubusercontent.com/80455724/149926457-b44e1077-616d-429e-905e-073ffd50fea5.png">
 
