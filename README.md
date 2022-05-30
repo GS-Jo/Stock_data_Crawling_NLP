@@ -26,24 +26,26 @@
 활용툴: Sc
 
 #### 1-1. 주가 데이터 크롤링
+
+<img width="961" alt="스크린샷 2022-01-18 오후 7 49 31" src="https://user-images.githubusercontent.com/80455724/149926434-5d540329-45c2-4721-97c1-1775b714d324.png">
+- 크롤링 사이트 : http://data.krx.co.kr/contents/MDC/MDI/mdiLoader/index.cmd?menuId=MDC0201020101
+
 - 상장된 주식 전 종목 일자별 크롤링
 - 주요 컬럼 : 종목코드 / 종목이름 / 일자 / 종가 / 시장구분(코스닥 + 코스피)
 - 기간 : 현시점부터 1년
 
-<img width="961" alt="스크린샷 2022-01-18 오후 7 49 31" src="https://user-images.githubusercontent.com/80455724/149926434-5d540329-45c2-4721-97c1-1775b714d324.png">
-
-- 크롤링 사이트 : http://data.krx.co.kr/contents/MDC/MDI/mdiLoader/index.cmd?menuId=MDC0201020101
-
-#### [주가데이터 크롤링](https://github.com/GS-Jo/Stock_data_Crawling_NLP/blob/main/%EC%A3%BC%EC%8B%9D%EB%8D%B0%EC%9D%B4%ED%84%B0_%ED%81%AC%EB%A1%A4%EB%A7%81.py)
+### [주식뉴스 크롤링 및 자연어처리 프로젝트 주가데이터 크롤링](https://github.com/GS-Jo/Stock_data_Crawling_NLP/blob/main/%EC%A3%BC%EC%8B%9D%EB%8D%B0%EC%9D%B4%ED%84%B0_%ED%81%AC%EB%A1%A4%EB%A7%81.py)
 
 #### 1-2 네이버 증권탭의 종목관련 뉴스 크롤링
+
+### [주식뉴스 크롤링 및 자연어처리 프로젝트 뉴스 크롤링](https://github.com/GS-Jo/Stock_data_Crawling_NLP/blob/main/%EC%A3%BC%EC%8B%9D%EB%89%B4%EC%8A%A4%20%ED%81%AC%EB%A1%A4%EB%A7%81.ipynb)
+
 
 <img width="1002" alt="스크린샷 2022-01-18 오후 7 50 20" src="https://user-images.githubusercontent.com/80455724/149926457-b44e1077-616d-429e-905e-073ffd50fea5.png">
 
 - 각 종목 페이지의 뉴스탭에서 크롤링
 - 종목코드를 url에 대입하여 상장된 모든 기업의 뉴스를 크롤링
 - 해당 이슈를 주가와 연계하기 위해서 뉴스의 게시 날짜를 함께 크롤링
-#### [주식뉴스 크롤링](https://github.com/GS-Jo/Stock_data_Crawling_NLP/blob/main/%EC%A3%BC%EC%8B%9D%EB%89%B4%EC%8A%A4%20%ED%81%AC%EB%A1%A4%EB%A7%81.ipynb)
 
 # 2. 자연어처리 프로젝트
 
